@@ -15,6 +15,7 @@ const FilterDashBoard = ({setFilter, filter, sortOrder, setSortOrder}) => {
                     <li onClick={() => setFilter("Pilgrimage")} className={filter !== "Pilgrimage" ? "tracking-wider text-lg rounded-sm px-2 cursor-pointer hover:bg-black hover:text-white" : "tracking-wider text-lg rounded-sm px-2 cursor-pointer bg-black text-white"}>Pilgrimage</li>
                     <li onClick={() => setFilter("Road Trips")} className={filter !== "Road Trips" ? "tracking-wider text-lg rounded-sm px-2 cursor-pointer hover:bg-black hover:text-white" : "tracking-wider text-lg rounded-sm px-2 cursor-pointer bg-black text-white"}>Road Trips</li>
                     <li onClick={() => setFilter("Adventure")} className={filter !== "Adventure" ? "tracking-wider text-lg rounded-sm px-2 cursor-pointer hover:bg-black hover:text-white" : "tracking-wider text-lg rounded-sm px-2 cursor-pointer bg-black text-white"}>Adventure</li>
+                    
                 </ul>
             </div>
             <div className="flex items-center">

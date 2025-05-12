@@ -21,7 +21,7 @@ app.use('/blogs', blogRoutes);
 mongoose.set('strictQuery', false);
 mongoose.connect(process.env.CONNECTION_URL)
     .then(response => {
-        app.listen(process.env.PORT, () => {
+        app.listen(process.env.PORT,()=>{
             console.log(`Connected to MONGO DB and Server running on PORT - ${process.env.PORT}.`)
         })
     })
